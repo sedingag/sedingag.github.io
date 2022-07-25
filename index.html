@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:ital@1&family=Niconne&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+<!--Navbar-->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+       <div class="container my-3" id="main-navbar">
+           <a class="navbar-brand fw-light text-muted " href="#">Personal Portfolio</a>
+               <button class="navbar-toggler"
+                       type="button"
+                       data-bs-toggle="collapse"
+                       data-bs-target="#navmenu"
+                       aria-controls="navbarSupportedContent"
+                       aria-expanded="false"
+                       aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+           <div class="collapse navbar-collapse" id="navmenu">
+               <ul class="navbar-nav ms-auto">
+                   <li class="nav-item">
+                       <a class="nav-link active px-3" href="#whatIdo">What I do</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link px-3" href="#companies">Companies worked with</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link px-3" href="#contact">Contact</a>
+                   </li>
+               </ul>
+           </div>
+       </div>
+    </nav>
+<!--First Section-->
+
+    <div class="container mt-5 mb-0" id="first-section">
+        <div class="row">
+            <div class="col-md-4 text-center text-light my-2 text-align-right">
+                <h1>Hello World</h1>
+                <p class="lead text-center lh-2 px-5 text-muted">I am <span id="span">Sedin</span>, and this is my Portfolio Website</p>
+                <button class="btn btn-outline-secondary btn-md contact-me mb-2">
+                    <a class= "text-muted fw-bold text-decoration-none" href="#contact">Contact Me</a>
+
+                </button>
+            </div>
+            <div class="col-md-8">
+                <img class="img-fluid" id="img" src="/images/me.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+<!--What I do section-->
+
+    <div class="section what-i-do">
+        <div class="container" id="whatIdo">
+            <div class="row gy-3">
+                <div class="col-sm-6 col-md-4 ">
+                    <img class="image-fluid w-75" src="/images/risk.jpg" id="risk" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img class="image-fluid w-75" src="/images/python.png" id="python" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img class="image-fluid w-75" src="/images/flask.jpg" id="flask" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img class="image-fluid w-75" src="/images/html_css.jpg" id="html" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img class="image-fluid w-75" src="/images/javascript.png" id="js" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img class="image-fluid w-75 mb-2" src="/images/data-science.png" id="bootstrap" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Employment Section-->
+<section id="companies">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-ride="false">
+  <div class="carousel-inner">
+     <div class="carousel-item active" data-bs-interval="3500">
+        <img class="img-logo" src="/images/pcb.jpeg" id="pcb" alt="">
+        <p class="lead text-light fw-light fs-5 my-3">Part of an exceptional <span class="text-warning fw-bold">Credit Risk dept.</span> as of March 2022.</p>
+     </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img class="img-logo" src="/images/UniCredit_Leasing.jpg" alt="">
+        <p class="lead text-light fs-5 fw-light my-3"><span class="text-warning fw-bold">Credit Risk Controlling dept.</span> where I worked for over 2.5 years</p>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img class="img-logo" src="/images/grawe.jpg" alt="">
+        <p class="lead text-light fs-5 fw-light my-3">Over 5 years <span class="text-warning fw-bold">sales</span> experience within this great community</p>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<!--Footer-->
+
+<footer class="bg-dark p-5 text-muted text-center position-relative" id="contact">
+<div class="container">
+    <a href="#" class="px-3 mx-2 my-4 text-muted">
+        <i class="bi bi-envelope h2"></i>
+    </a>
+      <a href="https://ba.linkedin.com/in/sedin-gagula-a3917b1a7" target="_blank" class="px-3 mx-2 my-4 text-muted">
+        <i class="bi bi-linkedin h2"></i>
+    </a>
+      <a href="https://www.facebook.com/profile.php?id=721982981" target="_blank" class="px-3 mx-2 my-4 text-muted">
+        <i class="bi bi-facebook h2"></i>
+    </a>
+
+    <p class="my-4">Copyright &copy 2022 <span class="mx-3">Sedin Gagula</span></p>
+    <a href="#" class="position-abosolute bottom-0 end-0 p-5 text-muted">
+       <i class="bi bi-arrow-up-circle h2"></i>
+    </a>
+</div>
+
+
+</footer>
+
+
+
+
+
+</body>
+</html>

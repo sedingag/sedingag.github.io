@@ -1,0 +1,112 @@
+/* Navbar */
+
+.navbar-brand {
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar {
+padding: 0% 10%;
+}
+
+/* First Section */
+
+body {
+background-color: #0F3D3E;
+min-width: 100%;
+font-family: "Montserrat", sans-serif;
+}
+
+
+/*#first-section*/
+
+#img {
+width: 80%;
+height: auto;
+border-radius: 10%;
+transform: rotate(5deg);
+margin-bottom: 35px;
+}
+
+
+.contact-me:hover {
+
+background: #A5C9CA;
+
+}
+
+@media (max-width: 991.98px) {
+#img {
+transform: rotate(0deg);
+width: 100%;
+margin-bottom: 1rem;
+}
+}
+
+#span {
+color: #E2DCC8;
+}
+
+h1 {
+font-family: 'Montserrat Alternates', sans-serif;
+font-size: 3rem;
+margin-left: 25px;
+}
+
+/* What I do */
+
+.what-i-do {
+background: #100F0F;
+
+}
+
+#risk, #python, #html, #js, #bootstrap, #flask{
+border-radius: 10%;
+justify-content: center;
+text-align: center;
+}
+
+#js{
+margin-bottom: 10px;
+}
+
+
+@media (max-width: 575px) {
+#risk, #python, #html, #js, #bootstrap, #flask {
+margin-left: 30px;
+}
+}
+
+/* Companies */
+
+#companies {
+text-align: center;
+padding-top: 30px;
+background-color: #0F3D3E;
+color: #fff;
+}
+
+.img-logo {
+margin: 10px;
+width: 50%;
+}
+
+#pcb {
+width: 30%;
+padding-bottom: 5px;
+}
+
+@media (max-width: 575px) {
+.img-logo {
+width: 90%;
+margin: auto;
+}
+
+#pcb {
+width: 80%;
+}
+}
+
+/* Footer */
+
+
